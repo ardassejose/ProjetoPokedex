@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
 }
 
 main {
@@ -7,7 +8,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #DADFE8;
+    flex-direction: column;
+    background-image: url(../imagens/background-pokemon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .pokedex {
