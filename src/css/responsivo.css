@@ -11,13 +11,6 @@
         overflow: auto;
     }
 
-    main {
-        background-image: url(../imagens/background-pokemon.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-
     .pokedex {
         flex-direction: column;
         padding: 30px 0;
@@ -81,13 +74,6 @@
     body {
         font-size: 12px;
         overflow: hidden;
-    }
-
-    main {
-        background-image: url(../imagens/background-pokemon.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
     }
 
     .pokedex {
